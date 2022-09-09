@@ -1,0 +1,2 @@
+class Fiend < ApplicationRecord
+end
