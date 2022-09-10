@@ -70,7 +70,7 @@ end
 
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.3'
-  gem 'rails_12factor', '0.0.2'
+  #gem 'rails_12factor', '0.0.2'
 end
 
 group :test do
