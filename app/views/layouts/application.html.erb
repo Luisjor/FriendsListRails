@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My first Ruby on Rails </title>
+    <%= favicon_link_tag asset_path('SvgLJ.jpg') %>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
   <body>
@@ -11,7 +12,8 @@
     
     
     <%= render 'home/header' %>
-<br>
+    <br>
+
     <% if notice %>
       <%= render 'layouts/alerts' %>
     <% end %>
@@ -19,8 +21,6 @@
       <br>
       <%= yield %>
     </div>
-    
-
 
 
     
